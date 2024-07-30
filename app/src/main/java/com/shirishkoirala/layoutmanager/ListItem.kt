@@ -1,5 +1,10 @@
 package com.shirishkoirala.layoutmanager
 
-import androidx.annotation.RawRes
+import androidx.annotation.DrawableRes
 
-data class ListItem(val id: Int, val name: String, val description: String, @RawRes val video: Int)
+data class ListItem(
+    val id: Int,
+    val name: String,
+    val description: String,
+    @DrawableRes val video: Int
+)
